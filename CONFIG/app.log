@@ -1,0 +1,10 @@
+2019/02/02 17:06:53 error: open /path/to/config.toml: The system cannot find the path specified.
+can't open configuration file
+main.readConfig
+	C:/playground/Golang/CONFIG/config.go:18
+main.main
+	C:/playground/Golang/CONFIG/config.go:37
+runtime.main
+	C:/Go/src/runtime/proc.go:201
+runtime.goexit
+	C:/Go/src/runtime/asm_amd64.s:1333
