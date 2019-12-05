@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type person struct {
 	firstName string
 	lastName  string
@@ -15,9 +17,9 @@ func main() {
 		firstName: "Emmmanuel",
 		lastName:  "Eliason-Armstrong",
 		contactInfo: contactInfo{
-			email:   "armstrongemmanuel@yahoo.fr",
+			email:   "emmanuel@yahoo.com",
 			zipcode: 123,
 		},
 	}
+	fmt.Printf("%+v", Eliason)
 }
-fmt.Printf("%+v",Eliason)
