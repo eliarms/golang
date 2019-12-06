@@ -7,5 +7,7 @@ func main() {
 	//hand.print()
 	//remainingCards.print()
 	//fmt.Println(cards.toString())
-	cards.saveToFile("my_cards")
+	//cards.saveToFile("my_cards")
+	cards.shuffleme()
+	cards.print()
 }
