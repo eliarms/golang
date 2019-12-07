@@ -12,7 +12,7 @@ type Square struct {
 
 //NewSquare returns a new square
 func NewSquare(x int, y int, length int) (*Square, error) {
-	if lenght <= 0 {
+	if length <= 0 {
 		return nil, fmt.Errorf("length must be > 0")
 	}
 	s := &Square{
